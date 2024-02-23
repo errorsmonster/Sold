@@ -15,7 +15,7 @@ def is_enabled(value, default):
 SESSION = environ.get('SESSION', 'Media_search')
 API_ID = int(environ.get('API_ID', '22225617'))
 API_HASH = environ.get('API_HASH', 'ef16f7597376f1689663304c954e4493')
-BOT_TOKEN = environ.get('BOT_TOKEN', "7033707454:AAHuwVWAmY3Mcx5_Ddp-F82BJH4Oxxzu-ro")
+BOT_TOKEN = environ.get('BOT_TOKEN', "6742244909:AAGYU_f1sQdX1jPyZBcc4Odg9JiVf7TBJUM")
 
 # Bot settings
 CACHE_TIME = int(environ.get('CACHE_TIME', 300))
@@ -28,7 +28,7 @@ SPELL_IMG = environ.get("SPELL_IMG", "https://te.legra.ph/file/15c1ad448dfe472a5
 
 # Admins, Channels & Users
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '6072149828 6205528551').split()]
-CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1001979888381').split()]
+CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1002044250842').split()]
 auth_users = [int(user) if id_pattern.search(user) else user for user in environ.get('AUTH_USERS', '').split()]
 AUTH_USERS = (auth_users + ADMINS) if auth_users else []
 PREMIUM_USER = [int(user) if id_pattern.search(user) else user for user in environ.get('PREMIUM_USER', '6072149828 6205528551').split()]
@@ -44,8 +44,8 @@ NO_RESULTS_MSG = bool(environ.get("NO_RESULTS_MSG", False))
 CLOSE_IMG = (environ.get('CLOSE_IMG', 'https://graph.org/file/8cd764fbdf3ccd34abe22.jpg')).split()
 
 # MongoDB information
-DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://akmonsterprogrammer:S.Aruna1155182089@test.zyj7rhx.mongodb.net/?retryWrites=true&w=majority&appName=test")
-DATABASE_NAME = environ.get('DATABASE_NAME', "test")
+DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://akmonsterprogrammer:S.Aruna1155182089@mraklinkzbot.uszdtdz.mongodb.net/?retryWrites=true&w=majority")
+DATABASE_NAME = environ.get('DATABASE_NAME', "MrAKLinkZbot")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 
 # Others
@@ -55,7 +55,7 @@ SHORTLINK_URL = environ.get('SHORTLINK_URL', 'krownlinks.com')
 SHORTLINK_API = environ.get('SHORTLINK_API', '274bdc3b7ff8982f5a0167edf2034f40ddc52d15')
 SECOND_SHORTLINK_URL = environ.get('SECOND_SHORTLINK_URL', 'krownlinks.com')
 SECOND_SHORTLINK_API = environ.get('SECOND_SHORTLINK_API', '274bdc3b7ff8982f5a0167edf2034f40ddc52d15')
-IS_SHORTLINK = bool(environ.get('IS_SHORTLINK', True))
+IS_SHORTLINK = bool(environ.get('IS_SHORTLINK', False))
 DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in environ.get('DELETE_CHANNELS', '-1001815307493').split()]
 MAX_B_TN = environ.get("MAX_B_TN", "5")
 MAX_BTN = is_enabled((environ.get('MAX_BTN', "True")), True)
@@ -67,7 +67,7 @@ DEALS_LINK = environ.get('DEALS_LINK', 'https://t.me/+FBt8UIQvFLA5NTY1')
 TUTORIAL = environ.get('TUTORIAL', 'https://t.me/MrAK_LinkZz/5')#not added
 IS_TUTORIAL = bool(environ.get('IS_TUTORIAL', True))
 MSG_ALRT = environ.get('MSG_ALRT', 'Hello Nanbha and Nanbis ❤️')
-LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002141251057'))
+LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002053122232'))
 SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'MrAK_LinkZz_Support_Chat')
 P_TTI_SHOW_OFF = is_enabled((environ.get('P_TTI_SHOW_OFF', "True")), True)
 IMDB = is_enabled((environ.get('IMDB', "False")), False)
