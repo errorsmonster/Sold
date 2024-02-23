@@ -105,8 +105,6 @@ async def start(client, message):
         return
     if len(message.command) == 2 and message.command[1] in ["subscribe", "error", "okay", "help"]:
         buttons = [[
-                    InlineKeyboardButton('🔥 ᴜɴʟᴏᴄᴋ ᴘʀᴇᴍɪᴜᴍ 🔥", url="https://t.me/Anynomas_bot?start=plan')
-                ],[
                     InlineKeyboardButton('✇ Jᴏɪɴ Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ ✇', url=CHNL_LNK)
                   ]]
         reply_markup = InlineKeyboardMarkup(buttons)      
@@ -165,8 +163,6 @@ async def start(client, message):
                                 InlineKeyboardButton('ɢʀᴏᴜᴘ', url=GRP_LNK)
                             ], [
                                 InlineKeyboardButton('𝚆𝚎𝚎𝚔𝚕𝚢 𝚁𝚎𝚕𝚎𝚊𝚜𝚎𝚍 𝙼𝚘𝚟𝚒𝚎𝚜', url=WRM)
-                            ],[
-                                InlineKeyboardButton("🔥 ᴜɴʟᴏᴄᴋ ᴘʀᴇᴍɪᴜᴍ 🔥", url="https://t.me/Anynomas_bot?start=plan")
                             ]
                         ]
                     )
@@ -188,8 +184,6 @@ async def start(client, message):
                                 InlineKeyboardButton('ɢʀᴏᴜᴘ', url=GRP_LNK)
                             ], [
                                 InlineKeyboardButton('𝚆𝚎𝚎𝚔𝚕𝚢 𝚁𝚎𝚕𝚎𝚊𝚜𝚎𝚍 𝙼𝚘𝚟𝚒𝚎𝚜', url=WRM)
-                            ],[
-                                InlineKeyboardButton("🔥 ᴜɴʟᴏᴄᴋ ᴘʀᴇᴍɪᴜᴍ 🔥", url="https://t.me/Anynomas_bot?start=plan")
                             ]
                         ]
                     )
@@ -299,9 +293,7 @@ async def start(client, message):
                             InlineKeyboardButton('ɢʀᴏᴜᴘ', url=GRP_LNK)
                         ],[
                             InlineKeyboardButton('𝚆𝚎𝚎𝚔𝚕𝚢 𝚁𝚎𝚕𝚎𝚊𝚜𝚎𝚍 𝙼𝚘𝚟𝚒𝚎𝚜', url=WRM)
-                        ],[
-                            InlineKeyboardButton("🔥 ᴜɴʟᴏᴄᴋ ᴘʀᴇᴍɪᴜᴍ 🔥", url="https://t.me/Anynomas_bot?start=plan")
-                    ]
+                        ]
                 ]
             )
         )
@@ -327,9 +319,7 @@ async def start(client, message):
                             InlineKeyboardButton('ɢʀᴏᴜᴘ', url=GRP_LNK)
                         ],[
                             InlineKeyboardButton('𝚆𝚎𝚎𝚔𝚕𝚢 𝚁𝚎𝚕𝚎𝚊𝚜𝚎𝚍 𝙼𝚘𝚟𝚒𝚎𝚜', url=WRM)
-                        ],[
-                            InlineKeyboardButton("🔥 ᴜɴʟᴏᴄᴋ ᴘʀᴇᴍɪᴜᴍ 🔥", url="https://t.me/Anynomas_bot?start=plan")
-                    ]
+                        ]
                 ]
                 )
             )
@@ -373,9 +363,7 @@ async def start(client, message):
                     InlineKeyboardButton("Verify", url=await get_token(client, message.from_user.id, f"https://telegram.me/{temp.U_NAME}?start="))
                     ],[
                         InlineKeyboardButton("Hᴏᴡ Tᴏ Vᴇʀɪғʏ", url=HOW_TO_VERIFY)
-                ],[
-            InlineKeyboardButton("🔥 ᴜɴʟᴏᴄᴋ ᴘʀᴇᴍɪᴜᴍ 🔥", url="https://t.me/Anynomas_bot?start=plan")
-          ]]
+                ]]
                 await message.reply_text(
                     text="<b>Verify First\nThen You'll Get Your Movie/Series</b>",
                     protect_content=True,
@@ -396,8 +384,6 @@ async def start(client, message):
                                 InlineKeyboardButton('ɢʀᴏᴜᴘ', url=GRP_LNK)
                             ], [
                                 InlineKeyboardButton('𝚆𝚎𝚎𝚔𝚕𝚢 𝚁𝚎𝚕𝚎𝚊𝚜𝚎𝚍 𝙼𝚘𝚟𝚒𝚎𝚜', url=WRM)
-                            ],[
-                                InlineKeyboardButton("🔥 ᴜɴʟᴏᴄᴋ ᴘʀᴇᴍɪᴜᴍ 🔥", url="https://t.me/Anynomas_bot?start=plan")
                             ]
                         ]
                     )
@@ -433,9 +419,7 @@ async def start(client, message):
                             InlineKeyboardButton('ɢʀᴏᴜᴘ', url=GRP_LNK)
                         ],[
                             InlineKeyboardButton('𝚆𝚎𝚎𝚔𝚕𝚢 𝚁𝚎𝚕𝚎𝚊𝚜𝚎𝚍 𝙼𝚘𝚟𝚒𝚎𝚜', url=WRM)
-                        ],[
-                            InlineKeyboardButton("🔥 ᴜɴʟᴏᴄᴋ ᴘʀᴇᴍɪᴜᴍ 🔥", url="https://t.me/Anynomas_bot?start=plan")
-                    ]
+                        ]
                 ]
                     )
                 )
@@ -454,9 +438,7 @@ async def start(client, message):
                     InlineKeyboardButton("Verify", url=await get_token(client, message.from_user.id, f"https://telegram.me/{temp.U_NAME}?start="))
                     ],[
                         InlineKeyboardButton("Hᴏᴡ Tᴏ Vᴇʀɪғʏ", url=HOW_TO_VERIFY)
-                ],[
-            InlineKeyboardButton("🔥 ᴜɴʟᴏᴄᴋ ᴘʀᴇᴍɪᴜᴍ 🔥", url="https://t.me/Anynomas_bot?start=plan")
-          ]]
+                ]]
                 await message.reply_text(
                     text="<b>Verify First\nThen You'll Get Your Movie/Series</b>",
                     protect_content=True,
@@ -476,8 +458,6 @@ async def start(client, message):
                                 InlineKeyboardButton('ɢʀᴏᴜᴘ', url=GRP_LNK)
                             ], [
                                 InlineKeyboardButton('𝚆𝚎𝚎𝚔𝚕𝚢 𝚁𝚎𝚕𝚎𝚊𝚜𝚎𝚍 𝙼𝚘𝚟𝚒𝚎𝚜', url=WRM)
-                            ],[
-                                InlineKeyboardButton("🔥 ᴜɴʟᴏᴄᴋ ᴘʀᴇᴍɪᴜᴍ 🔥", url="https://t.me/Anynomas_bot?start=plan")
                             ]
                         ]
                     )
@@ -522,8 +502,6 @@ async def start(client, message):
             InlineKeyboardButton("Verify", url=await get_token(client, message.from_user.id, f"https://telegram.me/{temp.U_NAME}?start="))
             ],[
                         InlineKeyboardButton("Hᴏᴡ Tᴏ Vᴇʀɪғʏ", url=HOW_TO_VERIFY)
-            ],[
-            InlineKeyboardButton("🔥 ᴜɴʟᴏᴄᴋ ᴘʀᴇᴍɪᴜᴍ 🔥", url="https://t.me/Anynomas_bot?start=plan")
             ]]
         await message.reply_text(
             text="<b>Verify First\nThen You'll Get Your Movie/Series</b>",
@@ -545,8 +523,6 @@ async def start(client, message):
                                 InlineKeyboardButton('ɢʀᴏᴜᴘ', url=GRP_LNK)
                             ], [
                                 InlineKeyboardButton('𝚆𝚎𝚎𝚔𝚕𝚢 𝚁𝚎𝚕𝚎𝚊𝚜𝚎𝚍 𝙼𝚘𝚟𝚒𝚎𝚜', url=WRM)
-                            ],[
-                                InlineKeyboardButton("🔥 ᴜɴʟᴏᴄᴋ ᴘʀᴇᴍɪᴜᴍ 🔥", url="https://t.me/Anynomas_bot?start=plan")
                             ]
                         ]
                     )
