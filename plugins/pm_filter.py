@@ -996,14 +996,14 @@ async def qualities_cb_handler(client: Client, query: CallbackQuery):
     search = FRESH.get(key)
     search = search.replace(' ', '_')
     btn = []
-    for i in range(0, len(QUALITY)-1, 2):
+    for i in range(0, len(QUALITIES)-1, 2):
         btn.append([
             InlineKeyboardButton(
                 text=QUALITIES[i].title(),
                 callback_data=f"fl#{QUALITIES[i].lower()}#{key}"
             ),
             InlineKeyboardButton(
-                text=c[i+1].title(),
+                text=QUALITIES[i+1].title(),
                 callback_data=f"fl#{QUALITIES[i+1].lower()}#{key}"
             ),
         ])
