@@ -299,7 +299,7 @@ async def start(client, message):
                             InlineKeyboardButton('ɢʀᴏᴜᴘ', url=GRP_LNK)
                         ],[
                             InlineKeyboardButton('𝚆𝚎𝚎𝚔𝚕𝚢 𝚁𝚎𝚕𝚎𝚊𝚜𝚎𝚍 𝙼𝚘𝚟𝚒𝚎𝚜', url=WRM)
-                        ][
+                        ],[
                             InlineKeyboardButton("🔥 ᴜɴʟᴏᴄᴋ ᴘʀᴇᴍɪᴜᴍ 🔥", url="https://t.me/Anynomas_bot?start=plan")
                     ]
                 ]
@@ -327,7 +327,7 @@ async def start(client, message):
                             InlineKeyboardButton('ɢʀᴏᴜᴘ', url=GRP_LNK)
                         ],[
                             InlineKeyboardButton('𝚆𝚎𝚎𝚔𝚕𝚢 𝚁𝚎𝚕𝚎𝚊𝚜𝚎𝚍 𝙼𝚘𝚟𝚒𝚎𝚜', url=WRM)
-                        ][
+                        ],[
                             InlineKeyboardButton("🔥 ᴜɴʟᴏᴄᴋ ᴘʀᴇᴍɪᴜᴍ 🔥", url="https://t.me/Anynomas_bot?start=plan")
                     ]
                 ]
@@ -433,7 +433,7 @@ async def start(client, message):
                             InlineKeyboardButton('ɢʀᴏᴜᴘ', url=GRP_LNK)
                         ],[
                             InlineKeyboardButton('𝚆𝚎𝚎𝚔𝚕𝚢 𝚁𝚎𝚕𝚎𝚊𝚜𝚎𝚍 𝙼𝚘𝚟𝚒𝚎𝚜', url=WRM)
-                        ][
+                        ],[
                             InlineKeyboardButton("🔥 ᴜɴʟᴏᴄᴋ ᴘʀᴇᴍɪᴜᴍ 🔥", url="https://t.me/Anynomas_bot?start=plan")
                     ]
                 ]
