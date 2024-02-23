@@ -159,7 +159,7 @@ async def start(client, message):
                     reply_markup=InlineKeyboardMarkup(
                         [
                             [
-                                InlineKeyboardButton('🚀 Fast Download / Watch Online🖥️', callback_data=f'stream:{file_id}'),
+                                InlineKeyboardButton('🚀 Fast Download / Watch Online🖥️', callback_data=f'stream#{file_id}'),
                             ],[
                                 InlineKeyboardButton('ᴄʜᴀɴɴᴇʟ', url=CHNL_LNK),
                                 InlineKeyboardButton('ɢʀᴏᴜᴘ', url=GRP_LNK)
@@ -182,7 +182,7 @@ async def start(client, message):
                     reply_markup=InlineKeyboardMarkup(
                         [
                             [
-                                InlineKeyboardButton('🚀 Fast Download / Watch Online🖥️', callback_data=f'stream:{file_id}'),
+                                InlineKeyboardButton('🚀 Fast Download / Watch Online🖥️', callback_data=f'stream#{file_id}'),
                             ],[
                                 InlineKeyboardButton('ᴄʜᴀɴɴᴇʟ', url=CHNL_LNK),
                                 InlineKeyboardButton('ɢʀᴏᴜᴘ', url=GRP_LNK)
@@ -390,7 +390,7 @@ async def start(client, message):
                 reply_markup=InlineKeyboardMarkup(
                         [
                             [
-                                InlineKeyboardButton('🚀 Fast Download / Watch Online🖥️', callback_data=f'stream:{file_id}'),
+                                InlineKeyboardButton('🚀 Fast Download / Watch Online🖥️', callback_data=f'stream#{file_id}'),
                             ],[
                                 InlineKeyboardButton('ᴄʜᴀɴɴᴇʟ', url=CHNL_LNK),
                                 InlineKeyboardButton('ɢʀᴏᴜᴘ', url=GRP_LNK)
@@ -470,7 +470,7 @@ async def start(client, message):
                 reply_markup=InlineKeyboardMarkup(
                         [
                             [
-                                InlineKeyboardButton('🚀 Fast Download / Watch Online🖥️', callback_data=f'stream:{file_id}'),
+                                InlineKeyboardButton('🚀 Fast Download / Watch Online🖥️', callback_data=f'stream#{file_id}'),
                             ],[
                                 InlineKeyboardButton('ᴄʜᴀɴɴᴇʟ', url=CHNL_LNK),
                                 InlineKeyboardButton('ɢʀᴏᴜᴘ', url=GRP_LNK)
@@ -539,7 +539,7 @@ async def start(client, message):
         reply_markup=InlineKeyboardMarkup(
                         [
                             [
-                                InlineKeyboardButton('🚀 Fast Download / Watch Online🖥️', callback_data=f'stream:{file_id}'),
+                                InlineKeyboardButton('🚀 Fast Download / Watch Online🖥️', callback_data=f'stream#{file_id}'),
                             ],[
                                 InlineKeyboardButton('ᴄʜᴀɴɴᴇʟ', url=CHNL_LNK),
                                 InlineKeyboardButton('ɢʀᴏᴜᴘ', url=GRP_LNK)
