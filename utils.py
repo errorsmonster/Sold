@@ -73,6 +73,7 @@ class temp(object):
     GETALL = {}
     SHORT = {}
     SETTINGS = {}
+    IMDB_CAP = {}
 
 
 async def check_expired_premium(client):
