@@ -1,4 +1,4 @@
-import re
+hoimport re
 from os import environ
 from Script import script 
 
@@ -13,8 +13,8 @@ def is_enabled(value, default):
 
 # Bot information
 SESSION = environ.get('SESSION', 'Media_search')
-API_ID = int(environ.get('API_ID', '28625475'))
-API_HASH = environ.get('API_HASH', 'da4894b36ca60168ba283519ed551606')
+API_ID = int(environ.get('API_ID', ''))
+API_HASH = environ.get('API_HASH', '')
 BOT_TOKEN = environ.get('BOT_TOKEN', "")
 
 # Bot settings
@@ -44,8 +44,8 @@ NO_RESULTS_MSG = bool(environ.get("NO_RESULTS_MSG", False))
 CLOSE_IMG = (environ.get('CLOSE_IMG', 'https://telegra.ph/file/cb806222d685f663d94c6.jpg')).split()
 
 # MongoDB information
-DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://Omnifly:money@cluster0.ujwgjka.mongodb.net/?retryWrites=true&w=majority")
-DATABASE_NAME = environ.get('DATABASE_NAME', "sawn")
+DATABASE_URI = environ.get('DATABASE_URI', "")
+DATABASE_NAME = environ.get('DATABASE_NAME', "")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 
 # Others
