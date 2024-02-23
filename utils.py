@@ -34,7 +34,7 @@ import re
 import os
 from datetime import datetime, date
 import string
-from typing import List
+from typing import List, Any
 from database.users_chats_db import db
 from bs4 import BeautifulSoup
 import requests
@@ -1077,3 +1077,23 @@ async def send_all(bot, userid, files, ident, chat_id, user_name, query):
                     ]
                 )
             )"""
+def get_media_from_message(message: "Message") -> Any:
+    media_types = (
+        "audio",
+        "document",
+        "photo",
+        "sticker",
+        "animation",
+        "video",
+        "voice",
+        "video_note",
+    )
+    for attr in media_types:
+        media = getattr(message, attr, None)
+        if media:
+            return media
+
+
+def get_hash(media_msg: Message) -> str:
+    media = get_media_from_message(media_msg)
+    return getattr(media, "file_unique_id", "")[:6]
